@@ -1,17 +1,26 @@
 {
-  "name": "vsc_genero_filetypes",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "4jsGeneroFileIcons",
+  "version": "0.0.1",
+  "description": "Custom file icons for 4js Genero filetypes",
+  "engines": {
+    "vscode": "^1.22.0"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jbedette/vsc_genero_filetypes.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Genero","4gl","per"],
+  "categories": ["Themes"],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "GeneroIconTheme",
+        "label": "Genero Custom Icons",
+        "path": "./icon-theme.json"
+      }
+    ]
+  },
+  "author": "John Bedette",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
