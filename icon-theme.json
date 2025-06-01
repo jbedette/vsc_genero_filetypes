@@ -1,0 +1,21 @@
+{
+    "iconDefinitions": {
+      "file-4gl": {
+        "iconPath": "./icons/4GL.png"
+      },
+      "file-per": {
+        "iconPath": "./icons/PER.png"
+      },
+      "file-inc": {
+        "iconPath": "./icons/INC.png"
+      }
+    },
+    "fileExtensions": {
+      "4gl": "file-4gl",
+      "per": "file-per",
+      "inc": "file-inc"
+    },
+    "light": {},
+    "highContrast": {}
+  }
+  
